@@ -20,7 +20,7 @@ services:
       - ./redis-data:/data
 
 volumes:
-  redis-date:
+  redis-data:
 
 networks:
   devops-5:
