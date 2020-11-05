@@ -1,0 +1,10 @@
+apiVersion : v1
+kind: Pod
+metadata:
+  name: devops-6
+spec:
+  containers:
+    - name: flask-app
+      image: svyatoslav123/Devops-5_hits:latest
+      ports:
+        - containerPort: 5000
